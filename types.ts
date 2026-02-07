@@ -8,6 +8,7 @@ export enum DamageLevel {
 
 export interface Report {
   id: string;
+  region: string;
   villageName: string;
   province: string;
   commune: string;
